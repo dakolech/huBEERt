@@ -32,9 +32,9 @@
         </div>
         <div class='btn-group pull-right'>
           <p class='navbar-text navbar-right'>
-            <a href="signUp.html">Sign up</a>
+            <a href="signUp.html">Zarejestruj</a>
             |
-            <a href="signIn.html">Log in</a>
+            <a href="signIn.html">Zaloguj</a>
           </p>
         </div>
       </div>
@@ -44,12 +44,24 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Log IN!</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-      <i class="fa fa-camera-retro"></i> fa-camera-retro
+      <form role="form" action="index.html">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Adres E-mail/Login</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Hasło</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Zapamiętaj mnie
+          </label>
+        </div>
+        <a href="index.html">
+          <button type="submit" class="btn btn-default">Zaloguj</button>
+        </a>
+      </form>
 
     </div>
 
