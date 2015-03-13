@@ -14,16 +14,9 @@ sudo apt-get install nodejs-legacy npm
 sudo npm install -g yo grunt-cli bower
 
 sudo gem install sass
-sudo gem install compass
+"sudo gem install compass" if fail then "sudo apt-get install ruby-dev"
 
 sudo npm install
 bower install
-
-/*
-sudo npm install grunt-contrib-sass --save-dev 
-sudo npm install grunt-contrib-jade --save-dev
-sudo npm install grunt-contrib-coffee --save-dev
-*/
-
 
 rake db:create db:migrate
